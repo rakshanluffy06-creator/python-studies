@@ -1,0 +1,24 @@
+EXERCISE 3:
+
+pending_players = []
+pending_players.append("virat")
+pending_players.append("dhoni")
+pending_players.append("rohit")
+
+print("Total Players:", len(pending_players))
+pending_players.pop(1)
+print(pending_players)
+
+
+
+EXERCISE 4:
+
+players = [
+    {"city": "bangalore", "name": "virat"},
+    {"city": "chennai", "name": "dhoni"},
+    {"city": "mumbai", "name": "rohit"}
+]
+
+for player in players:
+    if player["city"] == "mumbai":
+        print(player["name"])
