@@ -5,6 +5,6 @@ def register_player(name, age, team):
         "team": team
     }
 
-player = register_player("Anbu", 22, "Chennai Kings")
+player = register_player("santhosh", 21, "Chennai Kings")
 
 print(player)
